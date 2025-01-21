@@ -1,0 +1,173 @@
+
+
+
+
+                                        /*.............. header............. */
+
+header {
+    
+    background-color: rgb(137 99 15);
+    color: white;
+    margin: -10 -10 0 -10;
+}
+
+
+header ul{
+    list-style: none ;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+header ul li{
+    display: inline;
+    text-align: center;
+    
+}
+header a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    /* position: relative; */
+    
+    
+}
+
+header img{
+    width: 50px;
+    height: 50px;
+}
+
+.nav-logo{
+    /* padding: 15px 15px 15px 15px; */
+    margin: 15px;
+}
+
+.nav-item{
+
+    padding: 17 10;
+    position: relative;
+    top: -16px;
+   
+}
+
+.nav-item:hover{
+    background-color:cadetblue;
+    border-radius: 15px;
+}
+
+
+
+.liRight{
+float: right;
+
+}
+.liRight:hover{
+    background-color:cadetblue;
+    border-radius: 25%;
+}
+
+
+
+                                    /*............ body .............*/
+
+
+
+body{
+    background-color: cadetblue;
+    overflow-x:hidden;
+}
+
+.BGI01{
+    width:100%;
+    height: 500;
+
+}
+
+
+
+                                    /* table image ( cat / dog  Collection ) */
+
+
+.TIM01{
+    
+    justify-self: center;
+}
+
+.TIMl{float: right;
+    width: 400px;
+    height: 300px;}
+
+.TIMr{float: left;
+    width: 400px;
+    height: 300px;}
+
+
+
+
+                                    /*............... footer................ */
+
+
+footer{
+    min-height: 200px;
+    background-color:  rgb(137 99 15);
+    text-align: center;
+    color: black;
+    margin: 10 -10 0 -10;
+    padding: 10 0 0 0;
+}
+
+footer form input{
+    margin: 5px;
+}
+ #email01{
+    width: 25%;
+    border-radius: 15px;
+    border: 0px;
+}
+
+#submit-bottom{
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+footer{padding: 20px 0;
+position:relative;
+margin-top: 0%;
+top: 10;
+}
+
+footer div {
+    display: inline;
+}
+
+footer  li{
+    list-style: none;
+    padding: 5px ;
+    width:  100px;
+    /* margin: 0; */
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* footer ul{
+    padding: 0;
+    margin: 0;
+} */
+
+
+footer ul li:hover{
+    background-color: cadetblue;
+    border-radius: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
